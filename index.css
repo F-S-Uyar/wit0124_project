@@ -8,6 +8,31 @@ h1 {
     color: red;
 }
 
+.text-bold {
+    font-weight: bold;
+}
+
+.text-red {
+    color: red;
+    font-weight: bold;
+}
+
+.age-restriction {
+    border: 1px solid black;
+    border-radius: 6px;
+    padding: 4px;
+    margin: 0 1.5rem;
+}
+
+.btn-xl {
+    background: red;
+    color: white;
+    border-radius: 0.7rem;
+    padding: 1rem 1.5rem;
+    width: 90px;
+    text-align: center;
+}
+
 header {
     display: flex;
     align-items: center;
@@ -60,4 +85,21 @@ main {
     display: flex;
     flex-direction: column;
     justify-content: center;
+}
+
+.rating-container {
+    color: red;
+}
+
+main h2 {
+    font-size: 3rem;
+    margin: 1.5rem 0;
+}
+
+.details-container p {
+    margin: 1rem 0;
+}
+
+.description {
+    width: 50%;
 }
