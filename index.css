@@ -1,3 +1,7 @@
+/* * {
+    border: 1px solid black;
+} */
+
 body {
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
@@ -22,6 +26,17 @@ h1 {
     border-radius: 6px;
     padding: 4px;
     margin: 0 1.5rem;
+}
+
+
+.btn-l {
+    background: red;
+    color: white;
+    border-radius: 0.5rem;
+    padding: 0.7rem 1.1rem;
+    width: 90px;
+    text-align: center;  
+    margin-top: 1rem;
 }
 
 .btn-xl {
@@ -102,4 +117,33 @@ main h2 {
 
 .description {
     width: 50%;
+}
+
+.section-content, .section-header {
+    display: flex;
+    justify-content: space-between;
+   
+}
+
+section {
+    margin: 1rem;
+    margin-bottom: 3rem;
+}
+
+.card {
+    width: 30%;
+    aspect-ratio: 2/1;
+    border: 1px solid black;
+    padding-left: 1rem;
+}
+
+.card h4 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    margin-top: 3rem;
+}
+
+.card .age-restriction {
+    margin-left: 0;
+    margin-right: 0.8rem;
 }
