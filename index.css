@@ -96,7 +96,7 @@ main {
     margin: 1rem;
     border: 1px solid black;
     padding: 2rem;
-    height: 70vh;
+    height: 57vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -146,4 +146,35 @@ section {
 .card .age-restriction {
     margin-left: 0;
     margin-right: 0.8rem;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    align-items: flex-start;
+    margin: 1rem;
+}
+
+footer nav{
+    display: flex;
+    gap: 2rem;
+    margin-bottom: 1rem;
+}
+
+footer nav a {
+    text-decoration: none;
+    color: black;
+}
+
+footer p:nth-child(n+1) {
+    margin-top: 0;
+}
+
+footer img {
+    height: 3rem;
+}
+
+footer div:first-child {
+    flex-basis: 40%;
 }
